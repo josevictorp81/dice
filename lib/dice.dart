@@ -40,9 +40,6 @@ class _DiceState extends State<Dice> {
                 child: Image.asset('images/dice$leftDice.png'),
               ),
             ),
-            // Padding(
-            //   padding: EdgeInsets.only(right: 15),
-            // ),
             GestureDetector(
               onTap: chooseNumber,
               child: SizedBox(
